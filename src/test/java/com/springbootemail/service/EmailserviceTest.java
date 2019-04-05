@@ -23,6 +23,6 @@ public class EmailserviceTest {
 
     @Test
     public void sendSimpleMail() {
-        emailservice.sendSimpleMail("1661009855@qq.com ","spring boot","你好我发送的邮件");
+        emailservice.sendSimpleMail("1661009855@qq.com","spring boot","你好我发送的邮件");
     }
 }

@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Emailservice {
 
-    @Value("spring.mail.username")
+    @Value("${spring.mail.username}")
     public String fromUserName;
 
     @Autowired
